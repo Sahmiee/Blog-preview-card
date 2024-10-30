@@ -34,7 +34,6 @@ body{
 .hover{
     background-color: hsl(47, 88%, 63%);
     margin-top: 22px;
-    cursor: pointer;
     font-weight: 500;
     margin-bottom: 10px;
     padding: 5px;
@@ -56,11 +55,33 @@ body{
     margin-left: 3px;
     margin-bottom: 22px;
     font-size: 14px;
+    cursor: pointer;
+}
+
+.heading:hover{
+    color: hsl(47, 88%, 63%);
 }
 
 .paragraph{
     color: hsl(0, 0%, 42%);
     font-size: 16px;
-    line-height: 24px;
+    line-height: 25px;
     margin-bottom: 22px;
 }
+
+.profile{
+    display: flex;
+    align-items: center; /* Centers text vertically with the image */
+}
+  
+#pfp {
+    width: 32px; 
+    height: 32px;
+    margin-right: 10px; /* Space between image and text */
+}
+  
+.profile p{
+    margin: 0;
+    font-size: 1rem;
+}
+
